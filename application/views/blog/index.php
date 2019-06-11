@@ -90,7 +90,7 @@
 		<i class="fas fa-mail-bulk"></i>
 		<h3 class="txtItem"> <span class="paragraf">Lorem, ipsum dolor sit amet <br> laudantium vel cupiditate,</span>
 		</h3>
-		<button class="btn-success btnEmail">Submit</button>
+		<button class="btn-success btnEmail" data-toggle="modal" data-target="#exampleModal">Submit</button>
 	</div>
 </div>
 
@@ -129,7 +129,7 @@
 
 
 <footer>
-	
+
 	<div class="row">
 		<div class="col">
 			<h4>Share With</h4>
@@ -144,3 +144,33 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim consequatur ullam itaque corrupti et nam aperiam veniam, molestias iure quis, eveniet laboriosam odio repellendus? Minima adipisci culpa nihil error.Obcaecati deserunt a quisquam quaerat adipisci deleniti consequuntur voluptatum quod, possimus aut minima iure modi unde ipsum pariatur molestiae alias mollitia distinctio! Incidunt eveniet accusamus vero esse. Esse, alias nihil.</p>
 	</di>
 </footer>
+
+<!-- Khusus modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="recipient-name" class="col-form-label">Email:</label>
+						<input type="email" class="form-control" id="recipient-name">
+					</div>
+					<div class="form-group">
+						<label for="message-text" class="col-form-label">Message:</label>
+						<textarea class="form-control" id="message-text"></textarea>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Send message</button>
+			</div>
+		</div>
+	</div>
+</div>
