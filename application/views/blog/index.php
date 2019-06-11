@@ -126,8 +126,6 @@
 
 <!-- footer -->
 
-
-
 <footer>
 
 	<div class="row">
