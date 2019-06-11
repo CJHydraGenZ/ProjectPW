@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+/* .container {
+	margin: 4px;
+
+} */
+
+.text {
+	font-family: 'Acme', sans-serif;
+	font-weight: 600;
+	color: rgb(102, 102, 102);
+}
+
+.textisi {
+	font-family: 'Abel', sans-serif;
+	font-size: 17px;
+}
+
+.isiC {
+	width: 100%;
+	background-color: aqua;
+	height: 200px;
+	position: relative;
+}
+
+/* .blogContent {
+	width: 100%;
+} */
+
+
+
+.txtItem {
+	text-align: center;
+	position: relative;
+
+}
+
+
+
+
+.isiContent {
+	display: block;
+	overflow: hidden;
+	color: white;
+
+}
+
+.isiContent::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 150px;
+	transform: rotate(45deg);
+	width: 10px;
+	height: 10px;
+	background-color: #e1e1e1;
+
+
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+
+}
+
+.isiContent::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 150px;
+	transform: rotate(45deg);
+	width: 10px;
+	height: 10px;
+	background-color: #e1e1e1;
+
+
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+.txtItem::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 950px;
+	height: 4px;
+	margin-left: -1.5px;
+	background-color: #e1e1e1;
+}
+
+.fas.fa-mail-bulk {
+	position: relative;
+	margin-top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 60px;
+	color: white;
+
+}
+
+.paragraf {
+	/* display: block; */
+	background-color: aqua;
+	position: relative;
+	padding: 3px;
+}
+
+
+
+
+/* .txtItem::before,
+.txtItem::after {
+	border-color: red;
+} */
+
+
+
+
+/* mobile */
+
+@media (max-width: 576px) {
+
+	.isiContent::before,
+	.isiContent::after {
+		display: none;
+	}
+
+
+}
