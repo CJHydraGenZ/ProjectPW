@@ -157,7 +157,13 @@ footer {
 
 
 
-/* .icon {} */
+.row.ftr {
+	padding: 50px !important;
+}
+
+.icon {
+	margin: 10px;
+}
 
 .icon .fab.fa-facebook-f::before {
 	content: "\f39e";

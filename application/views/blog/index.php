@@ -128,7 +128,7 @@
 
 <footer>
 
-	<div class="row">
+	<div class="row ftr">
 		<div class="col">
 			<h4>Share With</h4>
 			<a class="icon" href=""><i class="fab fa-facebook-f"></i></a>
